@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Syne } from "next/font/google";
 import { useView } from "@/contexts/ViewContext";
 import { useInView } from "react-intersection-observer";
-import AnimatedBody from "../ui/AnimatedBody";
-import AnimatedTitle from "../ui/AnimatedTitle";
+import AnimatedBody from "./app/components/ui/AnimatedBody";
+import AnimatedTitle from "./app/components/ui/AnimatedTitle";
 
 const syne = Syne({ subsets: ["latin"] });
 
