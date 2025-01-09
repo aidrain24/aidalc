@@ -27,28 +27,23 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I amplify brand voices through the web
+        Crafting Digital Solutions with Deluge Expertise
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
-            publicity or software solutions that streamline otherwise manual
-            processes, I love taking brands from point A to the their dreamy
-            point B and iteratively improve as time goes on.
+          I am a dedicated and passionate individual with a strong foundation in technology and software development. I pursued a Bachelor of Science in Computer Science, where I honed my skills and gained a deep understanding of programming and system design. My hard work and commitment were recognized when I was awarded "Best in Program Developer" during my studies, an achievement that reflects my ability to deliver innovative and efficient solutions.
+
+
+
+
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+          Throughout my academic and professional journey, I have developed proficiency in a wide range of programming languages and frameworks, including HTML, CSS, JavaScript, TypeScript, Next.js, React.js, Node.js, C++, C#, Java, and Deluge. These skills have equipped me to tackle diverse projects, from front-end web development to back-end systems and software applications. My adaptability and eagerness to learn enable me to stay current with the latest technologies and deliver results that exceed expectations.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
+          Beyond technical expertise, I value collaboration and problem-solving. I thrive in environments where I can contribute to meaningful projects and bring creative ideas to life. Whether it’s building dynamic web applications, optimizing system performance, or creating user-friendly interfaces, I am driven by the opportunity to make a positive impact through technology. Wanna learn
             more? Here&apos;s <br className="hidden md:block" />
             <Link
               className="underline"
