@@ -10,7 +10,7 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aidrain Alcantara — Frontend Software Engineer",
+  title: "Aidrain Alcantara",
   description:
     "A Frontend Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
   keywords: [
@@ -29,23 +29,23 @@ export const metadata: Metadata = {
     "portfolio",
   ],
   openGraph: {
-    title: "Aidrain Alcantara — Frontend Software Engineer",
+    title: "Aidrain Alcantara",
     description:
       "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    url: "https://www.adeolabadero.me",
-    siteName: "www.adeolabadero.me",
+    url: "https://www.aidra.in",
+    siteName: "www.aidra.in",
     images: [
       {
         url: "https://i.ibb.co/FKMqc28/adeola-badero.png",
         width: 1200,
         height: 630,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Aidrain Alcantara",
       },
       {
         url: "https://i.ibb.co/Y8hBTR4/ade-800.png",
         width: 800,
         height: 800,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Aidrain Alcantara",
       },
     ],
     locale: "en-US",
@@ -53,10 +53,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adeola Badero — Software Engineer",
+    title: "Aidrain Alcantara",
     description:
       "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@Ade_the_great",
+    creator: "@aidrain24",
     images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
   },
   robots: {
