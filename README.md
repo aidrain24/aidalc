@@ -59,4 +59,4 @@ Although I'm currently not accepting PRs (pull requests), I encourage you to rea
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-"# aidalc" 
+"# aidalc" RESR
