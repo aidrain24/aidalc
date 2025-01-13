@@ -61,6 +61,15 @@ export default function MobileMenu({
           style={{ width: '30px', height: '30px' }} 
         />
         </Link>
+        <Link
+          className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
+          target="_blank"
+          href="https://www.onlinejobs.ph/jobseekers/info/3848380"
+          data-blobity-radius="10"
+        >
+        <Icon icon="hugeicons:messenger" />
+        
+        </Link>
 
         <div className="flex gap-3 w-full">
           <Link
@@ -79,6 +88,7 @@ export default function MobileMenu({
           >
             <Icon icon="entypo-social:facebook" />
           </Link>
+          
         </div>
       </div>
     </motion.div>

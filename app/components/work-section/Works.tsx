@@ -13,49 +13,52 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
-      // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      title: "Zoho CRM",
+      gitLink: "https://github.com/aidrain24",
+      liveLink: "https://github.com/aidrain24",
       about:
-        "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/offset-folio.svg",
+        "A Zoho CRM Certified Administrator is a professional accredited by Zoho to manage, customize, and optimize Zoho CRM systems, ensuring efficient operations and alignment with business needs.",
+      stack: ["Zoho CRM", "DELUGE"],
+      img: "/img2.png",
+
     },
     {
-      title: "Shortly",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://lnk-shortener.netlify.app/",
+      title: "Javascript",
+       gitLink: "https://github.com/aidrain24",
+      liveLink: "https://github.com/aidrain24",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/shortly.svg",
+        "Learning JavaScript as a beginner involves understanding its basics, such as variables, data types, loops, and functions, progressing to concepts like DOM manipulation, events, and APIs, and applying these skills through hands-on practice and projects to build interactive web applications.",
+      stack: ["javascript", "typescript", "next.js", "React.js", "Node.js"],
+
+      img: "/img1.png",
+
     },
     {
-      title: "Where in the world",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
+      title: "Zoho CRM Partner",
+      gitLink: "https://github.com/aidrain24",
+      liveLink: "https://github.com/aidrain24",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
-      img: "/witw.svg",
+        "The Zoho CRM Partner Training Program Certificate of Accreditation is an official credential awarded to individuals or organizations that complete Zoho's partner training program. This program equips participants with in-depth knowledge and skills to implement, customize, and manage Zoho CRM solutions for clients. It demonstrates expertise in Zoho CRM functionalities and affirms the participant's capability to provide professional CRM services as an accredited Zoho partner.",
+      stack: ["traning", "Zoho CRM"],
+      img: "/img3.png",
     },
-    // {
-    //   title: "Yourtodo",
-    //   gitLink: "https://github.com/adex-hub/Yourtodo",
-    //   liveLink: "https://yourtodo-v1.vercel.app/",
-    //   about:
-    //     "This task management system lets you customize your name, add, delete, and edit tasks, and celebrates you when tasks are completed. It features built-in notifications and stores data in the browser, allowing you to resume tasks conveniently. Designed and developed by yours truly.",
-    //   stack: ["react", "javascript", "figma", "sass"],
-    //   img: "/todo.svg",
-    // },
+    {
+      title: "HTML, CSS, JS",
+      gitLink: "https://github.com/aidrain24",
+      liveLink: "https://github.com/aidrain24",
+      about:
+        "A responsive portfolio website built with HTML, CSS, and JavaScript dynamically adapts to various screen sizes, showcasing your skills, projects, and contact information in a sleek and interactive layout.",
+      stack: ["html", "css", "javascript"],
+      img: "/img4.png",
+    },
     {
       title: "Multi-step form",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://ade-loremgaming.netlify.app/",
+      gitLink: "https://github.com/aidrain24",
+      liveLink: "https://github.com/aidrain24",
       about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
-      img: "/multistep.svg",
+        "Deluge on a Luge is a playful phrase that encourages learning Zoho's Deluge scripting language to automate and customize workflows across Zoho applications like CRM and Creator.",
+      stack: ["deluge"],
+      img: "/img5.png",
     },
   ];
 
@@ -74,7 +77,7 @@ export default function Works() {
       ref={ref}
       id="work"
     >
-      <Title>Projects</Title>
+      <Title>Certificates</Title>
       {works.map((work, index) => (
         <FolioCard
           key={index}
