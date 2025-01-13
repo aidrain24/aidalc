@@ -55,14 +55,23 @@ export default function Header() {
             </Link>
           </ul>
           <div className="gap-5 text-xl hidden sm:flex">
-            <Link target="_blank" href="https://linkedin.com/in/adeola-badero">
-              <Icon icon="hugeicons:linkedin-01" />
+            <Link target="_blank" href="https://www.facebook.com/messages/t/100000525454146">
+              <Icon icon="hugeicons:messenger" />
             </Link>
-            <Link target="_blank" href="https://github.com/adex-hub">
+            <Link target="_blank" href="http://facebook.com/aidrain24">
+              <Icon icon="entypo-social:facebook" />
+            </Link>
+            <Link target="_blank" href="https://github.com/aidrain24">
               <Icon icon="hugeicons:github" />
             </Link>
-            <Link target="_blank" href="https://x.com/Ade_the_great">
-              <Icon icon="akar-icons:x-fill" />
+            <Link target="_blank" href="https://www.onlinejobs.ph/jobseekers/info/3848380">
+        
+              <img 
+          src="/onlinejobsph.png" 
+          alt="OnlineJobs.ph Logo" 
+          style={{ width: '30px', height: '30px' }} 
+        />
+   
             </Link>
           </div>
         </div>
