@@ -6,12 +6,24 @@ import TimelineItem from "./TimelineItem";
 const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
+
+  {
+    companyImg: "/work.svg",
+    jobTitle: "Engineer",
+    company: "Orient Semiconductor Electronics (OSE)",
+    jobType: "Technician (RM)",
+    duration: "Jun 2025 - present",
+    stuffIDid: [
+      "Machine Maintenance.",
+      "to be continued..",
+    ],
+  },
   {
     companyImg: "/bluechip.svg",
     jobTitle: "Zoho Junior Developer",
     company: "The CRM Carpenters",
     jobType: "Developer",
-    duration: "Jan. 2021 - present",
+    duration: "Jan. 2021 - Jun. 2025",
     stuffIDid: [
       "Assisted in designing and developing custom applications using Zoho Creator to streamline business operations.",
       "Integrated Zoho CRM and other Zoho tools with third-party applications to enhance workflow efficiency.",
@@ -20,16 +32,7 @@ const TimelineData = [
       "Collaborated with cross-functional teams to deliver tailored solutions and improve user experience.",
     ],
   },
-{
-    companyImg: "/bluechip.svg",
-    jobTitle: "Engineer (RM)",
-    company: "Orient Semiconductor Electronics OSE",
-    jobType: "Technician",
-    duration: "Jun 2025 - present",
-    stuffIDid: [
-      "Machine Maintenance. to be edited",
-    ],
-  },
+
   
   {
     companyImg: "/work.svg",
