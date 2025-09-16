@@ -20,6 +20,17 @@ const TimelineData = [
       "Collaborated with cross-functional teams to deliver tailored solutions and improve user experience.",
     ],
   },
+{
+    companyImg: "/bluechip.svg",
+    jobTitle: "Engineer (RM)",
+    company: "Orient Semiconductor Electronics OSE",
+    jobType: "Technician",
+    duration: "Jun 2025 - present",
+    stuffIDid: [
+      "Machine Maintenance. to be edited",
+    ],
+  },
+  
   {
     companyImg: "/work.svg",
     jobTitle: "Machine Operator",
