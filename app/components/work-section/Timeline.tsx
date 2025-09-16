@@ -9,7 +9,7 @@ const TimelineData = [
 
   {
     companyImg: "/work.svg",
-    jobTitle: "Engineer",
+    jobTitle: "Engineer in Taiwan",
     company: "Orient Semiconductor Electronics (OSE)",
     jobType: "Technician (RM)",
     duration: "Jun 2025 - present",
