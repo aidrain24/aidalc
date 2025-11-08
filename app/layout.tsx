@@ -3,6 +3,7 @@ import { Syne } from "next/font/google";
 import { Kumbh_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script"; // 👈 Add this import
 import "./globals.css";
 import Header from "./components/header-section/Header";
 import { ViewProvider } from "@/contexts/ViewContext";
@@ -88,6 +89,21 @@ export default function RootLayout({
           </ViewProvider>
           <Analytics />
           <SpeedInsights />
+
+          {/* ✅ Add your Tawk.to script safely */}
+          <Script id="tawk-script" strategy="afterInteractive">
+            {`
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/690fcab3aadb9719591b6463/1j9iqvk1s';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+              })();
+            `}
+          </Script>
         </>
       </body>
     </html>
