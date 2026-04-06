@@ -8,7 +8,7 @@ Hosting: Netlify
 # Gallery
 
 
-<!-- ![Portfolio Screenshot2](./Screenshot-1.png) -->
+<!--  -->
 
 
 # Get started
@@ -16,13 +16,13 @@ Hosting: Netlify
 Clone the project
 
 ```
-git clone https://github.com/adex-hub/ade-folio.git
+git clone 
 ```
 
 Go to the project directory
 
 ```
-cd ade-folio
+cd aid
 ```
 
 Install dependencies
