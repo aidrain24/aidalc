@@ -9,13 +9,13 @@ const TimelineData = [
 
   {
     companyImg: "/work.svg",
-    jobTitle: "Engineer in Taiwan",
+    jobTitle: "RM in Taiwan",
     company: "Orient Semiconductor Electronics (OSE)",
     jobType: "Technician (RM)",
     duration: "Jun 2025 - present",
     stuffIDid: [
       "Machine Maintenance.",
-      "to be continued..",
+      "...to be continued.....✌️",
     ],
   },
   {
